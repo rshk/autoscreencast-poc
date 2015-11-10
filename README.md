@@ -36,3 +36,8 @@ make
 ```
 
 Then visit ``./output/index.html`` in your browser.
+
+
+## Example
+
+See: http://rshk.github.io/autoscreencast-poc/
