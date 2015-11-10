@@ -1,0 +1,36 @@
+{# -*- engine: jinja -*- #}
+<!doctype html>
+<html>
+    <head>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="container">
+
+            <h1>How to google something</h1>
+
+            <p>First, head to <a href="{{ url }}">{{ url }}</a></p>
+
+            <p>You will land on a page titled <strong>{{ page_title }}</strong></p>
+
+            <p>
+                Click on the search box, type in your <code>{{ query }}</code> text:<br>
+                <img src="{{ searchbox_screenshot }}"></p>
+            </p>
+
+            <p>Click on the "{{ button_text }}" button: <img src="{{ button_screenshot }}"></p>
+
+            <h2>Complete video</h2>
+
+            <video src="{{ video_path }}" width="100%" controls></video>
+
+        </div>
+
+        <hr>
+
+        Powered by:
+        <a href="https://github.com/rshk/autoscreencast-poc">https://github.com/rshk/autoscreencast-poc</a>
+
+    </body>
+</html>
